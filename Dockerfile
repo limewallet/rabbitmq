@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ayufan/dokku-alt-buildstep:cedar-14
 
 # Add files.
 ADD bin/rabbitmq-start /usr/local/bin/
